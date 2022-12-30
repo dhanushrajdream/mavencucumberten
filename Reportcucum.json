@@ -1,0 +1,266 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2022-04-28T21:54:55.242Z",
+    "line" : 12,
+    "name" : "Login functionality",
+    "description" : "",
+    "id" : "checking-the-hotel-booking-functionality-in-the-adactin-application;login-functionality;;2",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 5651892800,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user Must Launch The Url",
+      "match" : {
+        "location" : "com.stepdefinition.StepDefinition.user_Must_Launch_The_Url()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 66014500,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user Enter The \"abc\" In The Username Field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"abc\"",
+          "offset" : 15
+        } ],
+        "location" : "com.stepdefinition.StepDefinition.user_enter_the_in_the_username_field(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 39009200,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "user Enter The \"123\" In The Password Field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"123\"",
+          "offset" : 15
+        } ],
+        "location" : "com.stepdefinition.StepDefinition.user_enter_the_in_the_password_field(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 326636900,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "user Click The Login Key It Navigates To The Search Hotel Page",
+      "match" : {
+        "location" : "com.stepdefinition.StepDefinition.user_Click_The_Login_Key_It_Navigates_To_The_Search_Hotel_Page()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeTest"
+    } ]
+  }, {
+    "start_timestamp" : "2022-04-28T21:55:01.344Z",
+    "line" : 13,
+    "name" : "Login functionality",
+    "description" : "",
+    "id" : "checking-the-hotel-booking-functionality-in-the-adactin-application;login-functionality;;3",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 283344100,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user Must Launch The Url",
+      "match" : {
+        "location" : "com.stepdefinition.StepDefinition.user_Must_Launch_The_Url()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 35008600,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user Enter The \"xyz\" In The Username Field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"xyz\"",
+          "offset" : 15
+        } ],
+        "location" : "com.stepdefinition.StepDefinition.user_enter_the_in_the_username_field(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 34007100,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "user Enter The \"456\" In The Password Field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"456\"",
+          "offset" : 15
+        } ],
+        "location" : "com.stepdefinition.StepDefinition.user_enter_the_in_the_password_field(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 313298700,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "user Click The Login Key It Navigates To The Search Hotel Page",
+      "match" : {
+        "location" : "com.stepdefinition.StepDefinition.user_Click_The_Login_Key_It_Navigates_To_The_Search_Hotel_Page()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeTest"
+    } ]
+  }, {
+    "start_timestamp" : "2022-04-28T21:55:02.014Z",
+    "line" : 14,
+    "name" : "Login functionality",
+    "description" : "",
+    "id" : "checking-the-hotel-booking-functionality-in-the-adactin-application;login-functionality;;4",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 1622086300,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user Must Launch The Url",
+      "match" : {
+        "location" : "com.stepdefinition.StepDefinition.user_Must_Launch_The_Url()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 35999800,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user Enter The \"nopassword\" In The Username Field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"nopassword\"",
+          "offset" : 15
+        } ],
+        "location" : "com.stepdefinition.StepDefinition.user_enter_the_in_the_username_field(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 33008100,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "user Enter The \"34567\" In The Password Field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"34567\"",
+          "offset" : 15
+        } ],
+        "location" : "com.stepdefinition.StepDefinition.user_enter_the_in_the_password_field(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 844941800,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "user Click The Login Key It Navigates To The Search Hotel Page",
+      "match" : {
+        "location" : "com.stepdefinition.StepDefinition.user_Click_The_Login_Key_It_Navigates_To_The_Search_Hotel_Page()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeTest"
+    } ]
+  }, {
+    "start_timestamp" : "2022-04-28T21:55:04.554Z",
+    "line" : 15,
+    "name" : "Login functionality",
+    "description" : "",
+    "id" : "checking-the-hotel-booking-functionality-in-the-adactin-application;login-functionality;;5",
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 285010000,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user Must Launch The Url",
+      "match" : {
+        "location" : "com.stepdefinition.StepDefinition.user_Must_Launch_The_Url()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 36008100,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user Enter The \"dhanush5\" In The Username Field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"dhanush5\"",
+          "offset" : 15
+        } ],
+        "location" : "com.stepdefinition.StepDefinition.user_enter_the_in_the_username_field(java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 34007600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "user Enter The \"dhanush5\" In The Password Field",
+      "match" : {
+        "arguments" : [ {
+          "val" : "\"dhanush5\"",
+          "offset" : 15
+        } ],
+        "location" : "com.stepdefinition.StepDefinition.user_enter_the_in_the_password_field(java.lang.String)"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 2165375700,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "user Click The Login Key It Navigates To The Search Hotel Page",
+      "match" : {
+        "location" : "com.stepdefinition.StepDefinition.user_Click_The_Login_Key_It_Navigates_To_The_Search_Hotel_Page()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@SmokeTest"
+    } ]
+  } ],
+  "name" : "Checking the hotel booking functionality in the Adactin application",
+  "description" : "",
+  "id" : "checking-the-hotel-booking-functionality-in-the-adactin-application",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/java/com/feature/Adactin.feature",
+  "tags" : [ ]
+} ]
